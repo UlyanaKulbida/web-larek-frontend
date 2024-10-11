@@ -5,7 +5,7 @@
 
 ### Стек: **HTML, SCSS, TS, Webpack**
 #### [Макет Mesto в Figma](https://www.figma.com/design/50YEgxY8IYDYj7UQu7yChb/%D0%92%D0%B5%D0%B1-%D0%BB%D0%B0%D1%80%D1%91%D0%BA?node-id=0-1&node-type=canvas&t=yeJ3BmBAja3ihMGN-0) 
-#### [Публикация  сайта на сервере]().
+#### [Публикация  сайта на сервере](https://ulyanakulbida.github.io/web-larek-frontend/).
 #### Репозиторий: https://github.com/UlyanaKulbida/web-larek-frontend.git
 \
 Структура проекта:
