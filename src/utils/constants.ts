@@ -1,7 +1,7 @@
 
-export const API_ORIGIN = window.location.hostname === 'ulyanakulbida.github.io' ? 'https://larek-api.nomoreparties.co'  : process.env.API_ORIGIN;
-export const API_URL = `${process.env.API_ORIGIN}/api/weblarek`;
-export const CDN_URL = `${process.env.API_ORIGIN}/content/weblarek`;
+// export const API_ORIGIN = window.location.hostname === 'ulyanakulbida.github.io' ? 'https://larek-api.nomoreparties.co'  : process.env.API_ORIGIN;
+export const API_URL = 'https://larek-api.nomoreparties.co/api/weblarek'//`${process.env.API_ORIGIN}/api/weblarek`;
+export const CDN_URL = 'https://larek-api.nomoreparties.co/content/weblarek'//`${process.env.API_ORIGIN}/content/weblarek`;
 
 export const settings = {
 };
