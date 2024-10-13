@@ -92,7 +92,7 @@ function renderPreview(product: IProduct) {
 		onClick: () => events.emit('preview:submit', product),
 	}).render({
 		...product,
-		isInBasket: basketData.inBasket(product.id),
+		inBasket: basketData.inBasket(product.id),
 	});
 	renderModal(cardPreview);
 }

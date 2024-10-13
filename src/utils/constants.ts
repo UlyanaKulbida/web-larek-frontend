@@ -6,13 +6,13 @@ export const CDN_URL = `${API_ORIGIN}/content/weblarek`;
 export const settings = {
 };
 
-export const categoryTitle = new Map([
-	['софт-скилл', 'card__category_soft'],
-	['хард-скилл', 'card__category_hard'],
-	['другое', 'card__category_other'],
-	['дополнительное', 'card__category_additional'],
-	['кнопка', 'card__category_button'],
-]);
+export const categoryTitle: Record<string, string> = {
+    'софт-скил': '_soft',
+    'другое': '_other',
+    'дополнительное': '_additional',
+    'кнопка': '_button',
+    'хард-скил': '_hard'
+}
 
 export const enum ErrorStatus {
 	EmptyEmail = 'Не указан email',

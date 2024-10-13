@@ -77,11 +77,10 @@ export class Card extends Component<ICard> {
 	// Обновляет категорию карточки
 	set category(category: string) {
 		this.setText(this._category, category);
-		const categoryClassName =
-			categoryTitle.get(category.toLowerCase()) || 'card__category_other';
-		this._category.classList.add(categoryClassName);
+		this._category.classList.add('card__category' + categoryTitle[category]);
 	}
-
+	
+	
 	// Обновляет цену карточки
 	set price(price: string) {
 		if (price) {
@@ -93,8 +92,8 @@ export class Card extends Component<ICard> {
 	}
 
 	// обновляет текст кнопки
-	set buttonText(state: boolean) {
-		this.setText(this.addButton, state ? 'Удалить' : 'Добавить');
+	set inBasket(state: boolean) {
+		this.setText(this.addButton, state ? 'Удалить из корзины' : 'В корзину');
 	}
 
 	// Обновляет индекс карточки.
