@@ -77,6 +77,7 @@ export class Card extends Component<ICard> {
 	// Обновляет категорию карточки
 	set category(category: string) {
 		this.setText(this._category, category);
+		this._category.classList.remove('card__category_other');
 		this._category.classList.add('card__category' + categoryTitle[category]);
 	}
 	
